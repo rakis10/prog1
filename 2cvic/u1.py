@@ -29,8 +29,6 @@ def suc(n):
     return su
 
 def grid(n):
-   #print('*' , end=' ')
-    # stlce
     r = n * 5
     for a in range (r + 1):
         if( a % 5 == 0):
@@ -42,18 +40,21 @@ def grid(n):
                 print('|        ' , end=' ')
             print('|')
                 
-##    print('*' , end=' ')
-##    print('-')
+    
+    return
+
+def ari(a,d,n):
+    clen= a
+    for i in range(n):
+        print(clen + d)
 
     
     return
 
-grid(3)
-grid(4)
 
-
+#grid(3)
+#grid(4)
 #print(suc(3))
-
 #opak(5)
 #par(10)
 #sto(3)

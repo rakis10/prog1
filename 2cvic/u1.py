@@ -28,10 +28,28 @@ def suc(n):
             su +=  (i+1)**2
     return su
 
-def grid:
-    print(
+def grid(n):
+   #print('*' , end=' ')
+    # stlce
+    r = n * 5
+    for a in range (r + 1):
+        if( a % 5 == 0):
+            for x in range(n):
+                print('* - - - -' , end=' ')
+            print('*')
+        else:
+            for x in range(n):
+                print('|        ' , end=' ')
+            print('|')
+                
+##    print('*' , end=' ')
+##    print('-')
 
+    
+    return
 
+grid(3)
+grid(4)
 
 
 #print(suc(3))
